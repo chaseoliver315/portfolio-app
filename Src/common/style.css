@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#app {
+    width: 400px;
+    height: 100vh;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    border-radius: 50%;
+    border: 10px rgb(211, 220, 247) solid;
+    margin-bottom: 1rem; 
+}
+
+button {
+    cursor: pointer;
+    display: inline-block;
+    background-color: rgb(211, 220, 247);
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+    border: 1rem;
+    padding: 1rem 1.5rem;
+}
+
+.heavy {
+    
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    
+}
