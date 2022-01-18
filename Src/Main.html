@@ -14,7 +14,8 @@
             {{ message }}
             <h1>{{firstName}} {{lastName}}</h1>
             <h3>Email: {{email}}</h3>
-            <button :class="heavy">Who am I?</button>
+            <button  v-on:click="getInfo()" 
+            >Who am I?</button>
         </div>
         <script src="Main.js"></script>
   </body>

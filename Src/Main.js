@@ -7,6 +7,12 @@ const app = Vue.createApp({
       picture: 'assets/monke.png',
     }
   },
+  methods: {
+    async getInfo() {
+      
+      console.log(this.firstName);
+    },
+  },
 })
   
 
